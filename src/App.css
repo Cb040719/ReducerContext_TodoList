@@ -1,0 +1,30 @@
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+.App {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.todo {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.todo input[type="checkbox"] {
+	width: 20px;
+	height: 20px;
+	background-color: #eee;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+.todo h4 {
+	text-decoration: line-through;
+}
